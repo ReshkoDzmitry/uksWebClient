@@ -1,0 +1,17 @@
+.headerBackground {
+    height: 100px;
+    background-color: gray;
+}
+
+.headerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerTitle {
+    margin: 0;
+    display: flex;
+    max-width: 1200px;
+    height: 100px;
+    align-items: center;
+}
