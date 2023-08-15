@@ -1,6 +1,6 @@
 .headerBackground {
-    height: 100px;
-    background-color: gray;
+    height: 130px;
+    background-color: rgba(12, 49, 72, 0.66);
 }
 
 .headerContainer {
@@ -8,10 +8,23 @@
     margin: 0 auto;
 }
 
-.headerTitle {
-    margin: 0;
+.logo {
+    width: 80px;
+}
+
+.headerTitleWrapper {
     display: flex;
-    max-width: 1200px;
-    height: 100px;
     align-items: center;
+    height: 130px;
+}
+
+.headerTitle {
+    color: white;
+    font-size: 22px;
+    margin: 0 20px;
+}
+
+.headerTitleSpan {
+    font-size: 18px;
+    color: white;
 }
