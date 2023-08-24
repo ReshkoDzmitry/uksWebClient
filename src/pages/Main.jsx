@@ -10,7 +10,7 @@ const Main = () => {
             </div>
 
             <div className={s.container}>
-                <p>Body</p>
+                {/*<p>Body</p>*/}
             </div>
         </div>
     );
