@@ -1,5 +1,5 @@
 .headerBackground {
-    height: 130px;
+    /*height: 130px;*/
     /*background-color: rgba(12, 49, 72, 0.66);*/
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
@@ -34,13 +34,6 @@
     color: white;
 }
 
-.headerNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 25px 0;
-}
-
 .headerNavItem {
     font-size: 18px;
     font-weight: bolder;
@@ -55,5 +48,5 @@
 }
 
 .house {
-    width: 100%;
+    /*width: 100%;*/
 }

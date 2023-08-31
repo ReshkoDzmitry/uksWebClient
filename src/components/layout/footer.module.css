@@ -1,0 +1,19 @@
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper header{
+    flex: 0 0 auto;
+}
+
+.wrapper main{
+    flex: 1 0 auto;
+}
+
+.wrapper .footer{
+    flex: 0 0 auto;
+}

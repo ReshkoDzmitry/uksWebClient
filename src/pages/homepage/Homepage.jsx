@@ -1,9 +1,8 @@
 import React from 'react';
-import s from './main.module.css';
-import Header from "../components/header/Header";
-import house from '../image/временная.jpeg';
+import s from './homepage.module.css';
+import house from '../../image/временная.jpeg';
 
-const Main = () => {
+const Homepage = () => {
     return (
         <div>
             <div>
@@ -17,4 +16,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default Homepage;
