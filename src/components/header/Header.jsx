@@ -22,9 +22,9 @@ const Header = () => {
 
             </div>
 
-            <div>
-                <img className={s.house} src={house} alt="house"/>
-            </div>
+            {/*<div>*/}
+            {/*    <img className={s.house} src={house} alt="house"/>*/}
+            {/*</div>*/}
         </div>
 
     );
