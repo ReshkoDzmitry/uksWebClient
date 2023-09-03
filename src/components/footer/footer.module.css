@@ -1,5 +1,10 @@
 
 .wrapper {
     height: 150px;
-    background-color: #ff8800;
+    /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+
+    /*background: -webkit-linear-gradient(180deg, rgb(15, 36, 60) 2%, rgb(65, 105, 131) 92%);*/
+    /*background: -moz-linear-gradient(180deg, rgb(15, 36, 60) 2%, rgb(65, 105, 131) 92%);*/
+    /*background: linear-gradient(180deg, rgb(15, 36, 60) 2%, rgb(65, 105, 131) 92%);*/
+    background-color: #10253d;
 }
