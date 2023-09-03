@@ -6,15 +6,31 @@
     flex-wrap: wrap;
 
     .link {
-
+      margin-left: 30px;
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
     }
 
     .link:hover {
-
+      //text-decoration: underline;
+      transition: all 1s;
+      border-bottom: 2px solid #ffffff;
     }
 
     .activeLink {
-
+      margin-left: 30px;
+      color: #fcc141;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-bottom: 1px solid #fcc141;
+      letter-spacing: 2px;
+      transition: all .5s;
     }
 
   }

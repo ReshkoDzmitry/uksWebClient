@@ -11,10 +11,12 @@
 .headerContainer {
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
-    width: 80px;
+    width: 60px;
 }
 
 .headerTitleWrapper {
@@ -25,12 +27,13 @@
 
 .headerTitle {
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     margin: 0 20px;
+    letter-spacing: 2px;
 }
 
 .headerTitleSpan {
-    font-size: 16px;
+    font-size: 14px;
     color: white;
 }
 
@@ -40,13 +43,76 @@
     transition: all .2s;
 }
 
-.headerNavItem:hover {
-    color: #ff8800;
-    cursor: pointer;
-    transition: all .2s;
-    text-decoration: underline;
+.navigationWrapper {
+    height: 130px;
+    display: flex;
 }
 
 .house {
-    /*width: 100%;*/
+    width: 100%;
+    /*position: relative;*/
+}
+
+.containerFirstScreen {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../image/1.jpg");
+    background-repeat: no-repeat;
+    height: 770px;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapperTitleFirstScreen {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.titleFirstScreen {
+    font-size: 42px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.descriptionFirstScreen {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 2;
+    -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.wrapperContactFirstScreen {
+    margin-top: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrapperContactPhone {
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fcc141;
+}
+
+.wrapperContactMail {
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fcc141;
 }
