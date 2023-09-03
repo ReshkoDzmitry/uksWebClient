@@ -6,7 +6,7 @@ const Homepage = () => {
     return (
         <div>
             <div>
-                <img className={s.house} src={house} alt="house"/>
+                {/*<img className={s.house} src={house} alt="house"/>*/}
             </div>
 
             <div className={s.container}>

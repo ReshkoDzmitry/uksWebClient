@@ -12,6 +12,7 @@ const Header = () => {
                     <h1 className={s.headerTitle}><span
                         className={s.headerTitleSpan}>КОММУНАЛЬНОЕ УНИТАРНОЕ ПРЕДПРИЯТИЕ</span><br/>
                         "УПРАВЛЕНИЕ КАПИТАЛЬНОГО СТРОИТЕЛЬСТВА МИНОБЛИСПОЛКОМА"</h1>
+
                 </div>
 
                 <Navigation/>
