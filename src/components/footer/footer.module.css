@@ -1,13 +1,18 @@
 
 .footer {
-    height: 100%;
-    /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+    /*height: 100%;*/
+    /*box-shadow: 0 10px 10px rgba(0,0,0,0.22), 0 14px 28px rgba(0,0,0,0.25);*/
 
-    /*background: -webkit-linear-gradient(180deg, rgb(15, 36, 60) 2%, rgb(65, 105, 131) 92%);*/
-    /*background: -moz-linear-gradient(180deg, rgb(15, 36, 60) 2%, rgb(65, 105, 131) 92%);*/
-    /*background: linear-gradient(180deg, rgb(15, 36, 60) 2%, rgb(65, 105, 131) 92%);*/
-    background-color: #10253d;
+    background: -webkit-linear-gradient(0deg, rgb(15, 36, 60), rgb(65, 105, 131));
+    background: -moz-linear-gradient(0deg, rgb(15, 36, 60), rgb(65, 105, 131));
+    background: linear-gradient(0deg, rgb(15, 36, 60), rgb(65, 105, 131));
     padding: 50px 0;
+
+    /*box-shadow: 0 10px 10px rgba(0,0,0,0.22), 0 14px 28px rgba(0,0,0,0.25);*/
+
+    /*background: -webkit-linear-gradient(180deg, rgb(65, 105, 131) 92%, rgb(15, 36, 60) 2%);*/
+    /*background: -moz-linear-gradient(180deg, rgb(65, 105, 131) 92%, rgb(15, 36, 60) 2%);*/
+    /*background: linear-gradient(180deg, rgb(65, 105, 131) 92%, rgb(15, 36, 60) 2%);*/
 }
 
 .wrapper {

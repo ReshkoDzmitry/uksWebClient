@@ -1,8 +1,109 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+
+.containerFirstScreen {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../image/1.jpg");
+    background-repeat: no-repeat;
+    height: 770px;
+    background-size: cover;
+    background-position: center;
 }
 
-.house {
-    width: 100%;
+.wrapperTitleFirstScreen {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.titleFirstScreen {
+    font-size: 42px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.descriptionFirstScreen {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 2;
+    -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.wrapperContactFirstScreen {
+    margin-top: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.phoneLogo {
+    width: 40px;
+    padding-right: 20px;
+}
+
+.wrapperPhone {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperContactPhone {
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fcc141;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.wrapperContactPhone:hover {
+    background-color: #1e5e86;
+    transition: all .5s;
+}
+
+.phoneTitle {
+    margin: 0;
+}
+
+.phoneNumber {
+    margin: 0;
+}
+
+.wrapperContactMail {
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fcc141;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.wrapperContactMail:hover {
+    background-color: #1e5e86;
+    transition: all .5s;
+}
+
+.mailLogo {
+    width: 40px;
+    padding-right: 20px;
+}
+
+.mailTitle {
+    margin: 0;
+}
+
+.mailNumber {
+    margin: 0;
 }
