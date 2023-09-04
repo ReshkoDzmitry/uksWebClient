@@ -30,7 +30,7 @@ const Homepage = () => {
                         <img className={s.mailLogo} src={mailLogo} alt="mailLogo"/>
                     </div>
                     <div className={s.wrapperMail}>
-                        <p className={s.mailTitle}>"Электронная почта"</p>
+                        <p className={s.mailTitle}>Электронная почта</p>
                         <p className={s.mailNumber}>oblstroy@uksmoik.by</p>
                     </div>
                 </a>
