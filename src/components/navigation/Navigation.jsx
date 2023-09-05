@@ -7,7 +7,7 @@ const Navigation = () => {
         <nav className={s.wrapper}>
                 <NavLink className={({isActive})=>isActive ? `${s.activeLink}`: `${s.link}`} to={'/'}>Главная</NavLink>
                 <NavLink className={({isActive})=>isActive ? `${s.activeLink}`: `${s.link}`} to={'/services'}>Услуги</NavLink>
-                <NavLink className={({isActive})=>isActive ? `${s.activeLink}`: `${s.link}`} to={'/news'}>Проекты</NavLink>
+                <NavLink className={({isActive})=>isActive ? `${s.activeLink}`: `${s.link}`} to={'/projects'}>Проекты</NavLink>
                 <NavLink className={({isActive})=>isActive ? `${s.activeLink}`: `${s.link}`} to={'/contacts'}>Контакты</NavLink>
         </nav>
     );

@@ -3,6 +3,8 @@ import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} fr
 import Layout from "./components/layout/Layout";
 import Homepage from "./pages/homepage/Homepage";
 import Services from "./pages/services/Services";
+import Projects from "./pages/projects/Projects";
+import Contacts from "./pages/contacts/Contacts";
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
             <Route path='/' element={<Layout/>}>
                 <Route index element={<Homepage/>}/>
                 <Route path='services' element={<Services/>}/>
+                <Route path='projects' element={<Projects/>}/>
+                <Route path='contacts' element={<Contacts/>}/>
             </Route>
         )
     )
