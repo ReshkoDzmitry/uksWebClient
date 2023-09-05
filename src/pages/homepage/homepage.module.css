@@ -107,3 +107,36 @@
 .mailNumber {
     margin: 0;
 }
+
+.wrapperServicesHomePage {
+
+}
+
+.titleServicesHomePage {
+    margin: 100px 0;
+    font-size: 32px;
+    font-weight: bolder;
+    -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.wrapperServicesBlock {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.wrapperServicesBuild {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.wrapperServicesTech {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}

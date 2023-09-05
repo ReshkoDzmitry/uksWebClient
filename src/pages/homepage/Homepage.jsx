@@ -5,6 +5,7 @@ import mailLogo from '../../image/email-logo.png';
 
 const Homepage = () => {
     return (
+        <>
         <div className={s.containerFirstScreen}>
             <div className={s.wrapperTitleFirstScreen}>
                 <h2 className={s.titleFirstScreen}>УКС МИНОБЛИСПОЛКОМА</h2>
@@ -36,7 +37,27 @@ const Homepage = () => {
                 </a>
             </div>
 
+
+
         </div>
+            <div className={s.wrapperServicesHomePage}>
+                <h3 className={s.titleServicesHomePage}>
+                    УСЛУГИ ПРЕДПРИЯТИЯ
+                </h3>
+
+                <div className={s.wrapperServicesBlock}>
+                    <div className={s.wrapperServicesBuild}>
+                        Строительство
+                    </div>
+
+                    <div className={s.wrapperServicesTech}>
+                        Технадзор
+                    </div>
+                </div>
+
+
+            </div>
+        </>
     );
 };
 
