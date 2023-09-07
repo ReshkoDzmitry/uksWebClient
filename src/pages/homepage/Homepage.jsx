@@ -2,6 +2,12 @@ import React from 'react';
 import s from './homepage.module.css';
 import phoneLogo from '../../image/phone-call-logo.png';
 import mailLogo from '../../image/email-logo.png';
+import minobl from '../../image/001GerbMinskObl.png';
+import president from '../../image/president.gov.by.png';
+import pravo from '../../image/pravoBy.png';
+import mas from '../../image/mas.gov.by.png';
+import so from '../../image/so.png';
+
 
 const Homepage = () => {
     return (
@@ -38,6 +44,28 @@ const Homepage = () => {
                 </div>
             </div>
 
+
+            <div className={s.wrapperAdvantages}>
+                <div className={s.wrapperBlockAdvantage}>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque dignissimos dolorem,
+                        eaque earum enim eos impedit laudantium, maiores optio possimus, quasi? Alias delectus eaque
+                        eveniet laboriosam minus quae quod?</p>
+                </div>
+
+                <div className={s.wrapperBlockAdvantage}>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque dignissimos dolorem,
+                        eaque earum enim eos impedit laudantium, maiores optio possimus, quasi? Alias delectus eaque
+                        eveniet laboriosam minus quae quod?</p>
+                </div>
+
+                <div className={s.wrapperBlockAdvantage}>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque dignissimos dolorem,
+                        eaque earum enim eos impedit laudantium, maiores optio possimus, quasi? Alias delectus eaque
+                        eveniet laboriosam minus quae quod?</p>
+                </div>
+            </div>
+
+
             <div className={s.wrapperServicesHomePage}>
                 <h3 className={s.titleServicesHomePage}>
                     УСЛУГИ ПРЕДПРИЯТИЯ
@@ -59,11 +87,37 @@ const Homepage = () => {
                             Photo
                         </div>
                         <h4 className={s.servicesTechTitle}>Технадзор</h4>
-                        <p className={s.servicesTechDescription}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, ut!</p>
+                        <p className={s.servicesTechDescription}>Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Soluta, ut!</p>
                     </div>
                 </div>
+            </div>
 
+            <div className={s.wrapperLinks}>
+                <a className={s.link} href="https://www.minsk-region.gov.by/" target="_blank">
+                    <img className={s.linkLogo} src={minobl} alt="minsk-region.gov.by"/>
+                    <p>Минский областной исполнительный комитет</p>
+                </a>
 
+                <a className={s.link} href="https://president.gov.by/" target="_blank">
+                    <img className={s.linkLogo} src={president} alt="president.gov.by"/>
+                    <p>Официальный Интернет-портал Президента Республики Беларусь</p>
+                </a>
+
+                <a className={s.link} href="https://pravo.by/" target="_blank">
+                    <img className={s.linkLogo} src={pravo} alt="pravo.by"/>
+                    <p>Национальный правовой Интернет-портал Республики Беларусь</p>
+                </a>
+
+                <a className={s.link} href="http://mas.gov.by/" target="_blank">
+                    <img className={s.linkLogo} src={mas} alt="mas.gov.by"/>
+                    <p>Министерство архитектуры и строительства Республики Беларусь</p>
+                </a>
+
+                <a className={s.link} href="https://xn--80abnmycp7evc.xn--90ais/" target="_blank">
+                    <img className={s.linkLogo} src={so} alt="обращения.бел"/>
+                    <p>Система электронных обращений</p>
+                </a>
             </div>
         </>
     );
