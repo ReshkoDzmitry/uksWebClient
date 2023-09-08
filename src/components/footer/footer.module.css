@@ -23,8 +23,11 @@
 .infoFooter{
     display: flex;
     flex-direction: column;
-    align-itKems: center;
-    width: 350px;
+    width: 300px;
+}
+
+.infoFooter:last-child{
+    width: 150px;
 }
 
 .infoTitle{
