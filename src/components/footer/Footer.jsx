@@ -12,7 +12,7 @@ const Footer = () => {
                 </div>
                 <div className={s.infoFooter}>
                     <h4 className={s.infoTitle}>Адрес предприятия</h4>
-                    <p className={s.infoDescription}>Интернациональная улица, 8 г. Минск</p>
+                    <p className={s.infoDescription}>г. Минск, ул. Интернациональная, д. 8 </p>
                     <p className={s.infoDescription}>Понедельник — пятница: с 8.30 до 17.00
                         обед с 13.00 до 13.30</p>
                 </div>
