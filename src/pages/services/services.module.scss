@@ -1,6 +1,28 @@
+.servicesTitleWrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/minsk.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+  .servicesPageTitle {
+    font-size: 42px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
 
 .servicesWrapper {
-  margin: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -14,7 +36,7 @@
     align-items: center;
     padding: 20px;
     width: 330px;
-    height: 330px;
+    height: 150px;
     background-color: #406881;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
