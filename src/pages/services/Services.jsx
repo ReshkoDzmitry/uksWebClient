@@ -12,7 +12,7 @@ const Services = () => {
                 </h2>
             </div>
 
-            <h3>
+            <h3 className={s.titleItem}>
                 Инженерные услуги
             </h3>
             <div className={s.servicesWrapper}>
@@ -29,7 +29,7 @@ const Services = () => {
                 }
             </div>
 
-            <h3>
+            <h3 className={s.titleItem}>
                 Технический надзор
             </h3>
             <div className={s.servicesWrapper}>
