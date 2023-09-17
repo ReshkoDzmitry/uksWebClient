@@ -4,7 +4,7 @@ import {services} from "../../data/data";
 
 const Services = () => {
     return (
-        <div>
+        <>
 
             <div className={s.servicesTitleWrapper}>
                 <h2 className={s.servicesPageTitle}>
@@ -46,7 +46,7 @@ const Services = () => {
                 }
             </div>
 
-        </div>
+        </>
 
     );
 };
