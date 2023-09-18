@@ -7,6 +7,9 @@ import president from '../../image/president.gov.by.png';
 import pravo from '../../image/pravoBy.png';
 import mas from '../../image/mas.gov.by.png';
 import so from '../../image/so.png';
+import okeyLogo from '../../image/okey.png';
+import bild from '../../image/006Bild.jpg';
+import tech from '../../image/002Bild.jpeg';
 
 
 const Homepage = () => {
@@ -47,21 +50,36 @@ const Homepage = () => {
 
             <div className={s.wrapperAdvantages}>
                 <div className={s.wrapperBlockAdvantage}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque dignissimos dolorem,
-                        eaque earum enim eos impedit laudantium, maiores optio possimus, quasi? Alias delectus eaque
-                        eveniet laboriosam minus quae quod?</p>
+                    <div className={s.blockAdvantageTitle}>
+                        <img className={s.okeyLogo} src={okeyLogo} alt="logo"/>
+                        <h4 className={s.advantageTitle}>
+                            Более 20 лет опыта работы
+                        </h4>
+                    </div>
+                    <p className={s.blockAdvantageDescription}>Предприятие успешно работает в сфере строительства и технического надзора уже более 20 лет.</p>
                 </div>
 
                 <div className={s.wrapperBlockAdvantage}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque dignissimos dolorem,
-                        eaque earum enim eos impedit laudantium, maiores optio possimus, quasi? Alias delectus eaque
-                        eveniet laboriosam minus quae quod?</p>
+
+                    <div className={s.blockAdvantageTitle}>
+                        <img className={s.okeyLogo} src={okeyLogo} alt="logo"/>
+                        <h4 className={s.advantageTitle}>
+                            Современное оборудование
+                        </h4>
+                    </div>
+
+                    <p className={s.blockAdvantageDescription}>Для качественной реализации всех этапов строительных процессов и решения сложных комплексных задач.</p>
                 </div>
 
                 <div className={s.wrapperBlockAdvantage}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cumque dignissimos dolorem,
-                        eaque earum enim eos impedit laudantium, maiores optio possimus, quasi? Alias delectus eaque
-                        eveniet laboriosam minus quae quod?</p>
+
+                    <div className={s.blockAdvantageTitle}>
+                        <img className={s.okeyLogo} src={okeyLogo} alt="logo"/>
+                        <h4 className={s.advantageTitle}>
+                            Направления деятельности
+                        </h4>
+                    </div>
+                    <p className={s.blockAdvantageDescription}>Архитектура и инженерные изыскания, технические консультации, общее строительство зданий и сооружение.</p>
                 </div>
             </div>
 
@@ -75,20 +93,18 @@ const Homepage = () => {
 
                     <div className={s.wrapperServicesBuild}>
                         <div className={s.servicesBuildImg}>
-                            Photo
+                            <img className={s.bildImage} src={bild} alt="bild"/>
                         </div>
                         <h4 className={s.servicesBuildTitle}>Строительство</h4>
-                        <p className={s.servicesBuildDescription}>Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Ipsum, libero.</p>
+                        <p className={s.servicesBuildDescription}>Строительство зданий и сооружений Минской области.</p>
                     </div>
 
                     <div className={s.wrapperServicesTech}>
                         <div className={s.servicesTechImg}>
-                            Photo
+                            <img className={s.bildImage} src={tech} alt="tech"/>
                         </div>
-                        <h4 className={s.servicesTechTitle}>Технадзор</h4>
-                        <p className={s.servicesTechDescription}>Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Soluta, ut!</p>
+                        <h4 className={s.servicesTechTitle}>Технический надзор</h4>
+                        <p className={s.servicesTechDescription}>Инженерные услуги по объектам 1-4 класса сложности.</p>
                     </div>
                 </div>
             </div>
