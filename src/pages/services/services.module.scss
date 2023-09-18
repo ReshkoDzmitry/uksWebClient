@@ -1,3 +1,4 @@
+
 .servicesTitleWrapper {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/minsk.jpg");
   background-repeat: no-repeat;
@@ -21,6 +22,7 @@
 }
 
 
+/*
 .servicesWrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -65,4 +67,72 @@
   margin-top: 100px;
   margin-bottom: 70px;
   font-size: 32px;
+}*/
+
+.engineeringServicesWrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px 10px;
+  justify-items: center;
+
+  .engineeringServicesInner {
+    width: 550px;
+    height: 100%;
+    background-color: rgba(208, 208, 210, 0.1);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
 }
+
+.technical {
+
+  background-color: darkgray;
+
+  .technicalSupervision {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+    .technicalSupervisionTitleWrapper {
+      display: flex;
+      justify-content: space-between;
+
+      .engineeringServicesTitleInner {
+        width: 550px;
+        height: 150px;
+
+        .engineeringServicesTitle {
+        }
+      }
+
+
+      .technicalSupervisionImg {
+        width: 550px;
+        height: 150px;
+        background-color: #fcc141;
+      }
+    }
+
+    .technicalServicesInfo {
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 30px 10px;
+      justify-items: center;
+      padding: 30px 0;
+
+      .technicalServicesInfoInner {
+        width: 350px;
+        height: 150px;
+        background-color: white;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      }
+    }
+  }
+}
+
