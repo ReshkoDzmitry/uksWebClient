@@ -19,7 +19,8 @@ const Projects = () => {
                                 id={m.id}
                                 title={m.title}
                                 img={m.img}
-                                intended={m.intended}
+                                alt={m.alt}
+                                description={m.description}
                             />
                         )
                     })

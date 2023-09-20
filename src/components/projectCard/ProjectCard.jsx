@@ -3,7 +3,7 @@ import s from './projectCard.module.scss'
 import {projects} from "../../data/data";
 import ModalProject from "../modalProject/ModalProject";
 
-const ProjectCard = ({img,id, title,intended}) => {
+const ProjectCard = ({img,alt,id, title,description}) => {
 
     const [modalProject, setModalProject] = useState(false)
 
@@ -20,7 +20,7 @@ const ProjectCard = ({img,id, title,intended}) => {
         <div id={id}>
             <div className={s.projectsInner} onClick={allModalFunction}>
                 <h4 className={s.projectsTitle}>{title}</h4>
-                <img className={s.projectsImg} src="" alt=""/>
+                <img className={s.projectsImg} src={img} alt={alt}/>
             </div>
 
             <ModalProject
@@ -28,7 +28,8 @@ const ProjectCard = ({img,id, title,intended}) => {
                 setModalProject={setModalProject}
                 title={title}
                 img={img}
-                intended={intended}
+                alt={alt}
+                description={description}
             />
         </div>
     );
