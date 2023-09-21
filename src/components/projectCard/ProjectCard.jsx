@@ -20,7 +20,9 @@ const ProjectCard = ({img,alt,id, title,description}) => {
         <div id={id}>
             <div className={s.projectsInner} onClick={allModalFunction}>
                 <h4 className={s.projectsTitle}>{title}</h4>
-                <img className={s.projectsImg} src={img} alt={alt}/>
+                <div className={s.wrapperProjectsImg}>
+                    <img className={s.projectsImg} src={img} alt={alt}/>
+                </div>
             </div>
 
             <ModalProject

@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <>
             <div className={s.projectsTitleWrapper}>
-                <h3 className={s.projectsPageTitle}>Проекты</h3>
+                <h3 className={s.projectsPageTitle}>Реализованные проекты</h3>
             </div>
 
             <div  className={s.projectsWrapper}>

@@ -103,7 +103,7 @@ const Homepage = () => {
                         <div className={s.servicesTechImg}>
                             <img className={s.bildImage} src={tech} alt="tech"/>
                         </div>
-                        <h4 className={s.servicesTechTitle}>Технический надзор</h4>
+                        <h4 className={s.servicesTechTitle}>Инженерные услуги</h4>
                         <p className={s.servicesTechDescription}>Инженерные услуги по объектам 1-4 класса сложности.</p>
                     </div>
                 </div>

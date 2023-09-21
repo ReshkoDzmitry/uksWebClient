@@ -12,9 +12,39 @@
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     padding: 20px;
 
+    .projectsTitle {
+      height: 50px;
+      text-align: center;
+    }
+
     .projectsImg{
-      width: 100%;
+      width: 350px;
       height: 200px;
-      background-color: #fcc141;
+      transition: all .3s ease;
+
+    }
+  }
+
+
+
+  .projectsInner:hover {
+    cursor: pointer;
+    background-color: rgba(208, 208, 210, 0.1);
+    //background-color: #406881;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.65), 0 10px 10px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+
+    .projectsTitle {
+
+      .wrapperProjectsImg {
+
+      }
+
+
+    }
+
+    .projectsImg{
+      transform: scale(1.2);
+      transition: all .3s ease;
     }
   }
