@@ -1,31 +1,39 @@
 
-.projectsTitleWrapper{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/minsk.jpg");
-  background-repeat: no-repeat;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
+.projects {
+  .projectsTitleWrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/minsk.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
 
-  .projectsPageTitle{
-    font-size: 42px;
-    color: #ffffff;
-    letter-spacing: 2px;
-    -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
-    -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
-    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    .projectsPageTitle {
+      font-size: 42px;
+      color: #ffffff;
+      letter-spacing: 2px;
+      -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+      -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+      text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .projectsWrapper {
+    padding: 150px 0;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 10px;
+    justify-items: center;
+  }
+
+  &.modalActive {
+    background-color: rgba(0, 0, 0, 0.82);
+    transition: all .3s;
   }
 }
 
-.projectsWrapper {
-  margin: 150px 0;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 30px 10px;
-  justify-items: center;
-}
