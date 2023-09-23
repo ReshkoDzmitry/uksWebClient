@@ -10,22 +10,34 @@
   justify-content: center;
   transform: scale(0);
   z-index: 10;
-  transition: all .3s ease;
+  //transition: all .3s ease;
+
 
   &.active {
     transform: scale(1);
-    transition: all .3s ease;
+    //transition: all .3s ease;
+    background-color: rgba(0, 0, 0, 0.6);
   }
 
-  .modalContent{
+  .modalContent {
     width: 1000px;
     height: 600px;
     background-color: #ffffff;
     padding: 20px;
 
+    .modalTitle {
+      font-size: 18px;
+      align-items: center;
+    }
+
     .modalImg {
       width: 320px;
       height: 200px;
+    }
+
+    .modalDescription {
+      font-size: 16px;
+      align-items: inherit;
     }
 
   }

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {projects} from "../../data/data";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 import s from "./projects.module.scss";
@@ -8,7 +8,7 @@ const Projects = () => {
     /*const [modalProject, setModalProject] = useState(false)*/
 
     return (
-        <div className={modalProject ? `${s.projects} ${s.modalActive}` : `${s.projects}`}>
+        <div className={s.projects}>
             <div className={s.projectsTitleWrapper}>
                 <h3 className={s.projectsPageTitle}>Реализованные проекты</h3>
             </div>
@@ -23,8 +23,8 @@ const Projects = () => {
                                 img={m.img}
                                 alt={m.alt}
                                 description={m.description}
-                                /*modalProject={modalProject}
-                                setModalProject={setModalProject}*/
+                                // modalProject={modalProject}
+                                // setModalProject={setModalProject}
                             />
                         )
                     })
