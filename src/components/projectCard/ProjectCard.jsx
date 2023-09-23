@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './projectCard.module.scss'
 import {projects} from "../../data/data";
 import ModalProject from "../modalProject/ModalProject";
 
-const ProjectCard = ({img, alt, id, title, description, modalProject, setModalProject}) => {
+const ProjectCard = ({img, alt, id, title, description}) => {
+
+    const [modalProject, setModalProject] = useState(false)
 
     const modalProjectFilter = () => {
         projects.filter(f => f.id === id)

@@ -5,7 +5,7 @@ import s from "./projects.module.scss";
 
 const Projects = () => {
 
-    const [modalProject, setModalProject] = useState(false)
+    /*const [modalProject, setModalProject] = useState(false)*/
 
     return (
         <div className={modalProject ? `${s.projects} ${s.modalActive}` : `${s.projects}`}>
@@ -23,8 +23,8 @@ const Projects = () => {
                                 img={m.img}
                                 alt={m.alt}
                                 description={m.description}
-                                modalProject={modalProject}
-                                setModalProject={setModalProject}
+                                /*modalProject={modalProject}
+                                setModalProject={setModalProject}*/
                             />
                         )
                     })
