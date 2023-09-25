@@ -30,14 +30,21 @@
       align-items: center;
     }
 
-    .modalImg {
-      width: 320px;
-      height: 200px;
-    }
+    .modalDescriptionWrapper {
 
-    .modalDescription {
-      font-size: 16px;
-      align-items: inherit;
+      display: flex;
+
+      .modalImg {
+        width: 600px;
+        height: 100%;
+      }
+
+      .modalDescription {
+        font-size: 16px;
+        align-items: inherit;
+        margin: 0 15px;
+        text-align: justify;
+      }
     }
 
   }

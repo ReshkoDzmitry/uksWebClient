@@ -10,6 +10,7 @@ import so from '../../image/so.png';
 import okeyLogo from '../../image/okey.png';
 import bild from '../../image/006Bild.jpg';
 import tech from '../../image/002Bild.jpeg';
+import {NavLink} from "react-router-dom";
 
 
 const Homepage = () => {
@@ -60,7 +61,6 @@ const Homepage = () => {
                 </div>
 
                 <div className={s.wrapperBlockAdvantage}>
-
                     <div className={s.blockAdvantageTitle}>
                         <img className={s.okeyLogo} src={okeyLogo} alt="logo"/>
                         <h4 className={s.advantageTitle}>
@@ -91,21 +91,21 @@ const Homepage = () => {
 
                 <div className={s.wrapperServicesBlock}>
 
-                    <div className={s.wrapperServicesBuild}>
+                    <NavLink className={s.wrapperServicesBuild} to={'/projects'}>
                         <div className={s.servicesBuildImg}>
                             <img className={s.bildImage} src={bild} alt="bild"/>
                         </div>
                         <h4 className={s.servicesBuildTitle}>Строительство</h4>
-                        <p className={s.servicesBuildDescription}>Строительство зданий и сооружений Минской области.</p>
-                    </div>
+                        <p className={s.servicesBuildDescription}>Строительство зданий и сооружений в минской области</p>
+                    </NavLink>
 
-                    <div className={s.wrapperServicesTech}>
+                    <NavLink className={s.wrapperServicesTech} to={'/projects'}>
                         <div className={s.servicesTechImg}>
                             <img className={s.bildImage} src={tech} alt="tech"/>
                         </div>
                         <h4 className={s.servicesTechTitle}>Инженерные услуги</h4>
-                        <p className={s.servicesTechDescription}>Инженерные услуги по объектам 1-4 класса сложности.</p>
-                    </div>
+                        <p className={s.servicesTechDescription}>Инженерные услуги по объектам 1-4 класса сложности</p>
+                    </NavLink>
                 </div>
             </div>
 

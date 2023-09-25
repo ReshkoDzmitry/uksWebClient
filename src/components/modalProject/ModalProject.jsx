@@ -6,8 +6,10 @@ const ModalProject = ({modalProject,title,setModalProject,description,img,alt}) 
         <div className={modalProject ? `${s.modal} ${s.active}` : s.modal} onClick={() => setModalProject(!modalProject)}>
             <div className={s.modalContent} onClick={e => e.stopPropagation()}>
                 <h4 className={s.modalTitle}>{title}</h4>
-                <img className={s.modalImg} src={img} alt={alt}/>
-                <p className={s.modalDescription}>{description}</p>
+                <div className={s.modalDescriptionWrapper}>
+                    <img className={s.modalImg} src={img} alt={alt}/>
+                    <p className={s.modalDescription}>{description}</p>
+                </div>
             </div>
         </div>
     );
