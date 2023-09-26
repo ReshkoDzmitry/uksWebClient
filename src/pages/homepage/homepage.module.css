@@ -152,6 +152,7 @@
     box-shadow: 4px 4px 8px -6px rgba(34, 60, 80, 0.2);
     margin: 0 50px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .wrapperServicesBuild:hover {
@@ -165,6 +166,16 @@
 .bildImage {
     width: 350px;
     transition: all .3s ease;
+}
+
+.servicesBuildTitle {
+    color: black;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.servicesBuildDescription {
+    color: black;
 }
 
 .wrapperServicesBuild:hover .bildImage {
@@ -184,6 +195,17 @@
     box-shadow: 4px 4px 8px -6px rgba(34, 60, 80, 0.2);
     margin: 0 50px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.servicesTechTitle {
+    color: black;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.servicesTechDescription {
+    color: black;
 }
 
 .wrapperServicesTech:hover {
@@ -261,6 +283,7 @@
     width: 200px;
     height: 200px;
     padding: 10px;
+    margin: 10px;
 }
 
 .link:hover .linkLogo {
@@ -273,7 +296,7 @@
     box-shadow: 0 16px 30px rgba(0, 0, 0, 0.40), 0 15px 15px rgba(0, 0, 0, 0.40);
 }
 
-.link:hover p{
+.link:hover p {
     /*font-weight: bold;*/
     /*transition: all .3s ease;*/
 }
@@ -283,3 +306,244 @@
     height: 90px;
     transition: all .3s ease;
 }
+
+
+
+
+
+@media (max-width: 1185px) {
+    .containerFirstScreen {
+        height: 450px;
+    }
+
+    .wrapperTitleFirstScreen {
+        padding-top: 30px;
+    }
+
+    .titleFirstScreen {
+        font-size: 26px;
+    }
+
+    .descriptionFirstScreen {
+        font-size: 20px;
+    }
+
+    .wrapperContactFirstScreen {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .wrapperContactPhone {
+        width: 300px;
+        height: 100px;
+    }
+
+    .wrapperContactMail {
+        background-color: white;
+        width: 300px;
+        height: 100px;
+    }
+
+
+    .wrapperAdvantages {
+        max-width: 1000px;
+        /*margin: 0 auto;*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+    }
+
+    .wrapperBlockAdvantage {
+        width: 280px;
+    }
+
+    .wrapperLinks {
+        max-width: 1000px;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 500px;
+        margin-bottom: 80px;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .wrapperAdvantages {
+        max-width: 1000px;
+        /*margin: 0 auto;*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+    }
+
+    .wrapperBlockAdvantage {
+        width: 250px;
+        height: 200px;
+        margin: 100px 10px;
+    }
+}
+
+
+@media (max-width: 920px) {
+    .wrapperServicesBuild {
+        margin: 0 10px;
+    }
+
+    .wrapperServicesTech {
+        margin: 0 10px;
+    }
+
+    .titleServicesHomePage {
+        padding: 30px 0;
+    }
+}
+
+
+@media (max-width: 835px) {
+    .wrapperServicesBuild {
+        width: 200px;
+        height: 320px;
+    }
+
+    .wrapperServicesTech {
+        width: 200px;
+        height: 320px;
+    }
+
+    .titleServicesHomePage {
+        padding: 30px 0;
+    }
+}
+
+
+@media (max-width: 790px) {
+    .wrapperAdvantages {
+       flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapperBlockAdvantage {
+        width: 450px;
+        height: 150px;
+        margin: 20px 0;
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 635px) {
+    .wrapperContactFirstScreen {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titleFirstScreen {
+        font-size: 25px;
+    }
+
+    .wrapperContactPhone {
+        width: 250px;
+        height: 80px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .wrapperContactMail {
+        width: 250px;
+        height: 80px;
+    }
+
+    .containerFirstScreen {
+       height: 500px;
+    }
+
+    .phoneLogo {
+        width: 20px;
+        padding-right: 10px;
+    }
+
+    .phoneTitle {
+        font-size: 16px;
+    }
+
+    .phoneNumber {
+        font-size: 16px;
+    }
+
+    .mailLogo {
+        width: 20px;
+        padding-right: 10px;
+    }
+
+    .mailTitle {
+        font-size: 16px;
+    }
+
+    .mailNumber {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 740px) {
+    .wrapperLinks {
+        height: 700px;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .wrapperServicesBlock {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapperServicesBuild {
+        margin-bottom: 20px;
+    }
+
+    .wrapperBlockAdvantage {
+        width: 250px;
+        height: 200px;
+    }
+
+    .wrapperAdvantages {
+        margin: 30px 0;
+    }
+}
+
+
+
+@media (max-width: 460px) {
+    .containerFirstScreen {
+        height: 400px;
+    }
+
+    .wrapperLinks {
+        height: 1150px;
+    }
+
+    .titleFirstScreen {
+        font-size: 15px;
+    }
+
+    .descriptionFirstScreen {
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 390px) {
+    .containerFirstScreen {
+        height: 400px;
+    }
+}
+
+
+
+@media (max-width: 330px) {
+    .containerFirstScreen {
+        height: 450px;
+    }
+}
+

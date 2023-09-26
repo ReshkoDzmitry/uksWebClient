@@ -16,10 +16,10 @@ const Footer = () => {
                     <p className={s.infoDescription}>Понедельник — пятница: с 8.30 до 17.00
                         обед с 13.00 до 13.30</p>
                 </div>
-                <div className={s.infoFooter}>
+                <div className={s.infoFooterLast}>
                     <h4 className={s.infoTitle}>Связаться с нами</h4>
-                    <p className={s.infoDescription}>8 017 626-83-66 приемная</p>
-                    <p className={s.infoDescription}>oblstroy@uksmoik.by</p>
+                    <a className={s.infoDescription} href="tel:+80176268366">8 017 626-83-66 приемная</a>
+                    <a className={s.infoDescription} href="mailto:oblstroy@uksmoik.by">oblstroy@uksmoik.by</a>
                 </div>
             </div>
         </div>

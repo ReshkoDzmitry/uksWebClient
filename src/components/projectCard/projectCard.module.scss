@@ -13,6 +13,11 @@
     padding: 20px;
     overflow: hidden;
 
+    @media (max-width: 1150px) {
+      width: 250px;
+      margin: 20px 0;
+    }
+
     .projectsTitle {
       height: 50px;
       text-align: center;
@@ -47,5 +52,9 @@
     .projectsImg{
       transform: scale(1.2);
       transition: all .3s ease;
+
+      @media (max-width: 1150px) {
+        transform: none;
+      }
     }
   }

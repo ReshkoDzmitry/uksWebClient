@@ -1,15 +1,16 @@
 
 .servicesTitleWrapper {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/minsk.jpg");
+  //background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/minsk.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/004Bild.jpg");
   background-repeat: no-repeat;
   height: 400px;
   background-size: cover;
   background-position: center;
-  background: url("../../image/minsk.jpg");
+  //background: url("../../image/minsk.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,19 +30,50 @@
 .engineeringServicesWrapper {
   width: 1200px;
   margin: 0 auto;
-  padding: 50px 0;
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 30px 10px;
-  justify-items: center;
+  padding: 30px 0;
+  //display: flex;
+  //display: grid;
+  //grid-auto-columns: 1fr;
+  //grid-template-columns: 1fr 1fr;
+  //grid-template-rows: 1fr 1fr;
+  //gap: 30px 10px;
+  //justify-items: center;
+
+  .servicesBlockTitle {
+    text-align: center;
+    margin: 0 0 100px 0;
+  }
+
+  .servicesBlockWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+
+    .servicesBlockInner {
+      width: 270px;
+      height: 150px;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+
+      .servicesBlockText {
+
+      }
+    }
+  }
 
   .engineeringServicesInner {
     width: 550px;
     height: 100%;
     background-color: rgba(208, 208, 210, 0.1);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .imgBuild {
+    width: 20%;
   }
 
   opacity: 0;
@@ -64,10 +96,9 @@
 }
 
 
-
 .technical {
-
-  background-color: darkgray;
+  margin-bottom: 70px;
+  //background-color: darkgray;
 
   .technicalSupervision {
     width: 1200px;
@@ -79,8 +110,6 @@
       justify-content: space-between;
 
       .engineeringServicesTitleInner {
-        width: 550px;
-        height: 150px;
 
         .engineeringServicesTitle {
         }
@@ -95,19 +124,26 @@
     }
 
     .technicalServicesInfo {
-      display: grid;
-      grid-auto-columns: 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 30px 10px;
-      justify-items: center;
-      padding: 30px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      //grid-auto-columns: 1fr;
+      //grid-template-columns: 1fr 1fr 1fr;
+      //grid-template-rows: 1fr 1fr;
+      //gap: 30px 10px;
+      //justify-items: center;
 
       .technicalServicesInfoInner {
-        width: 350px;
+        width: 270px;
         height: 150px;
+        margin: 20px 0;
+        padding: 10px;
         background-color: white;
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
       }
     }
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './services.module.scss'
 import {engineeringServices, services, technicalSupervision} from "../../data/data";
+import build from '../../image/001Bild.jpg'
 
 const Services = () => {
     return (
@@ -50,35 +51,51 @@ const Services = () => {
         <>
             <div className={s.servicesTitleWrapper}>
                 <h2 className={s.servicesPageTitle}>
-                    Технический надзор и инженерные услуги
+                    Строительство и инженерные услуги
                 </h2>
             </div>
 
             <div className={s.engineeringServicesWrapper}>
-                <div>
-                    <h3>Инженерные Услуги</h3>
-                    <p>ПО ОБЪЕКТАМ 1-4 КЛАССА СЛОЖНОСТИ:</p>
+                <h3 className={s.servicesBlockTitle}>КУП "Управление капитального строительства Миноблисполкома" оказывает широкий спектр работ, которые обеспечивают качественное
+                    выполнение задач по возведению объектов 1-4 класса сложности.</h3>
+
+                <h4>В рамках договора на оказание инжиниринговых услуг наше предприятие предлагает следующие услуги:</h4>
+                <div className={s.servicesBlockWrapper}>
+                    <div className={s.servicesBlockInner}>
+                        <p className={s.servicesBlockText}>Разработка архитектурно-планировочной концепции строящегося объекта</p>
+                    </div>
+                    <div className={s.servicesBlockInner}>
+                        <p className={s.servicesBlockText}>Управление проектированием</p>
+                    </div>
+                    <div className={s.servicesBlockInner}>
+                        <p className={s.servicesBlockText}>Управление строительством</p>
+                    </div>
+                    <div className={s.servicesBlockInner}>
+                        <p className={s.servicesBlockText}>Управление капитальными затратами</p>
+                    </div>
                 </div>
-                {
-                    engineeringServices.map(m=> {
-                        return (
-                            <div className={s.engineeringServicesInner}>
-                                <h4>{m.title}</h4>
-                                <p>{m.description}</p>
-                            </div>
-                        )
-                    })
-                }
+
+
+                {/*<img className={s.imgBuild} src={build} alt="build"/>*/}
+
+                {/*{*/}
+                {/*    engineeringServices.map(m=> {*/}
+                {/*        return (*/}
+                {/*            <div className={s.engineeringServicesInner}>*/}
+                {/*                <h4>{m.title}</h4>*/}
+                {/*                <p>{m.description}</p>*/}
+                {/*            </div>*/}
+                {/*        )*/}
+                {/*    })*/}
+                {/*}*/}
             </div>
 
             <div className={s.technical}>
                 <div className={s.technicalSupervision}>
                     <div className={s.technicalSupervisionTitleWrapper}>
                         <div className={s.engineeringServicesTitleInner}>
-                            <h4 className={s.engineeringServicesTitle}>Технический Надзор</h4>
-                            <p>ПРЕДПРИЯТИЕ «УКС МИНОБЛИСПОЛКОМА» ОСУЩЕСТВЛЯЕТ ТЕХНИЧЕСКИЙ КОНТРОЛЬ ВСЕХ СТАДИЙ СТРОИТЕЛЬНОГО ПРОЦЕССА:</p>
+                            <h4>Технический контроль на всех стадиях строительного процесса:</h4>
                         </div>
-                        <img className={s.technicalSupervisionImg} src="" alt=""/>
                     </div>
 
                  <div className={s.technicalServicesInfo}>
@@ -86,7 +103,6 @@ const Services = () => {
                          technicalSupervision.map(m=>{
                              return(
                                  <div className={s.technicalServicesInfoInner}>
-                                     <h4>{m.title}</h4>
                                      <p>{m.description}</p>
                                  </div>
                              )

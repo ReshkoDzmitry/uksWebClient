@@ -1,5 +1,6 @@
 
 .projects {
+
   .projectsTitleWrapper {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/minsk.jpg");
     background-repeat: no-repeat;
@@ -9,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    //background-color: black;
     text-transform: uppercase;
 
 
@@ -19,17 +21,37 @@
       -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
       -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
       text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+
+      @media (max-width: 1130px) {
+        font-size: 26px;
+      }
     }
   }
 
   .projectsWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 150px 0;
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 30px 10px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    @media (max-width: 1150px) {
+      width: 1000px;
+      justify-content: space-evenly;
+    }
+
+    @media (max-width: 1130px) {
+      width: 800px;
+    }
+
+    @media (max-width: 820px) {
+      width: 650px;
+    }
+
+    @media (max-width: 650px) {
+      width: 500px;
+    }
   }
 
   &.modalActive {
