@@ -1,117 +1,140 @@
 
-.servicesTitleWrapper {
-  //background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/minsk.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/004Bild.jpg");
-  background-repeat: no-repeat;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  //background: url("../../image/minsk.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
+.services {
 
-
-  .servicesPageTitle {
-    font-size: 42px;
-    color: #ffffff;
-    letter-spacing: 2px;
-    -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
-    -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
-    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
-  }
-}
-
-.engineeringServicesWrapper {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 30px 0;
-  //display: flex;
-  //display: grid;
-  //grid-auto-columns: 1fr;
-  //grid-template-columns: 1fr 1fr;
-  //grid-template-rows: 1fr 1fr;
-  //gap: 30px 10px;
-  //justify-items: center;
-
-  .servicesBlockTitle {
-    text-align: center;
-    margin: 0 0 100px 0;
-  }
-
-  .servicesBlockWrapper {
+  .servicesTitleWrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../image/004Bild.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 50px 0;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
 
-    .servicesBlockInner {
-      width: 270px;
-      height: 150px;
-      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
 
-      .servicesBlockText {
+    .servicesPageTitle {
+      font-size: 42px;
+      color: #ffffff;
+      letter-spacing: 2px;
+      -webkit-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+      -moz-text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
+      text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.5);
 
+      @media (max-width: 1020px) {
+        font-size: 26px;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+
+      @media (max-width: 480px) {
+        width: 320px;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 1px;
       }
     }
   }
 
-  .engineeringServicesInner {
-    width: 550px;
-    height: 100%;
-    background-color: rgba(208, 208, 210, 0.1);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  }
+  .engineeringServicesWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
 
-  .imgBuild {
-    width: 20%;
-  }
-
-  opacity: 0;
-  transform: translateZ(-100px);
-  animation-name: fadeIn;
-  animation-duration: 1.2s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      transform: translateZ(-100px);
+    .servicesBlockTitle {
+      text-align: center;
+      padding: 0 10px 100px 10px;
     }
-    100% {
-      opacity: 1;
-      transform: translateZ(0);
+
+    .servicesBlockTitleServices {
+      @media (max-width: 970px) {
+        text-align: center;
+      }
+    }
+
+    .servicesBlockWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 50px 0;
+
+      .servicesBlockInner {
+        width: 370px;
+        height: 150px;
+        padding: 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        @media (max-width: 1199px) {
+          width: 320px;
+        }
+
+        @media (max-width: 1199px) {
+          width: 300px;
+        }
+
+        @media (max-width: 1040px) {
+          width: 400px;
+          margin: 20px 5px;
+        }
+
+        @media (max-width: 970px) {
+          width: 370px;
+          margin-bottom: 15px;
+        }
+        @media (max-width: 440px) {
+          width: 250px;
+          margin-bottom: 15px;
+        }
+
+        .servicesBlockText {
+
+          @media (max-width: 970px) {
+            font-size: 18px;
+          }
+        }
+      }
+
+      @media (max-width: 970px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+    }
+
+    @media (max-width: 1199px) {
+      padding: 0 10px;
     }
   }
+
 }
-
 
 .technical {
   margin-bottom: 70px;
-  //background-color: darkgray;
 
   .technicalSupervision {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px 10px;
 
     .technicalSupervisionTitleWrapper {
       display: flex;
       justify-content: space-between;
 
-      .engineeringServicesTitleInner {
+      .engineeringServicesTitle {
 
-        .engineeringServicesTitle {
+        @media (max-width: 565px) {
+          text-align: center;
+        }
+
+        @media (max-width: 440px) {
+          text-align: center;
         }
       }
 
@@ -121,17 +144,16 @@
         height: 150px;
         background-color: #fcc141;
       }
+
+      @media (max-width: 970px) {
+        justify-content: center;
+      }
     }
 
     .technicalServicesInfo {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      //grid-auto-columns: 1fr;
-      //grid-template-columns: 1fr 1fr 1fr;
-      //grid-template-rows: 1fr 1fr;
-      //gap: 30px 10px;
-      //justify-items: center;
 
       .technicalServicesInfoInner {
         width: 270px;
@@ -144,8 +166,36 @@
         justify-content: center;
         text-align: center;
         align-items: center;
+
+        @media (max-width: 970px) {
+          width: 350px;
+          margin: 20px 5px;
+        }
+
+        @media (max-width: 820px) {
+          width: 370px;
+        }
+
+        @media (max-width: 440px) {
+          width: 250px;
+        }
       }
+
+      @media (max-width: 820px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
     }
   }
+
+  @media (max-width: 1199px) {
+    padding: 0 10px;
+  }
 }
+
+
+
+
+
 
