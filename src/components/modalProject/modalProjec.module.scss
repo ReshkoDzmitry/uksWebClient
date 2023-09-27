@@ -20,15 +20,31 @@
   }
 
   .modalContent {
-    width: 700px;
+    width: 900px;
     height: 650px;
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
 
+    @media (max-width: 1120px) {
+      width: 600px;
+      height: 600px;
+    }
+
+    @media (max-width: 810px) {
+      width: 400px;
+      height: 450px;
+      padding: 10px;
+    }
+
     .modalTitle {
       font-size: 18px;
       align-items: center;
+
+      @media (max-width: 810px) {
+        font-size: 14px;
+        margin: 10px 0;
+      }
     }
 
     .modalDescriptionWrapper {
@@ -38,9 +54,19 @@
       align-items: center;
 
       .modalImg {
-        width: 700px;
+        width: 650px;
         height: 100%;
         margin-bottom: 20px;
+
+        @media (max-width: 1120px) {
+          width: 400px;
+          height: 100%;
+        }
+
+        @media (max-width: 810px) {
+          width: 150px;
+          height: 100%;
+        }
       }
 
       .modalDescription {
@@ -48,8 +74,18 @@
         align-items: inherit;
         margin: 0 15px;
         text-align: justify;
+
+        @media (max-width: 810px) {
+          font-size: 12px;
+        }
       }
     }
 
   }
 }
+
+
+//@media (max-width: 1120px) {
+//width: 250px;
+//margin: 20px 0;
+//}

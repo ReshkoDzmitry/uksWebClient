@@ -30,9 +30,9 @@ const Contacts = () => {
                 </div>
                 <div className={s.phoneWrapper}>
                     <h4>Приемная, факс:</h4>
-                    <a className={s.contactsPhone} href="tel:+80176268366">+375 17 366-06-06</a>
+                    <a className={s.contactsPhone} href="tel:+80173060068">+375 17 306-00-68</a>
                     <h4>Юридический отдел:</h4>
-                    <a className={s.contactsPhone} href="tel:+80176268366">+375 17 366-06-06</a>
+                    <a className={s.contactsPhone} href="tel:+80173060327">+375 17 306-03-27</a>
                 </div>
 
             </div>

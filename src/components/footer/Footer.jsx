@@ -6,7 +6,7 @@ const Footer = () => {
         <div className={s.footer}>
             <div className={s.wrapper}>
                 <div className={s.infoFooter}>
-                    <h4 className={s.infoTitle}>УКС МИНОБЛИСПОЛКОМА</h4>
+                    <h4 className={s.infoTitle}>УПРАВЛЕНИЕ КАПИТАЛЬНОГО СТРОИТЕЛЬСТВА МИНОБЛИСПОЛКОМА</h4>
                     <p className={s.infoDescription}>Управление капитального строительства МИНОБЛИСПОЛКОМА предлагает полный спектр услуг по
                         строительству и техническому надзору строительного процесса.</p>
                 </div>
@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
                 <div className={s.infoFooterLast}>
                     <h4 className={s.infoTitle}>Связаться с нами</h4>
-                    <a className={s.infoDescription} href="tel:+80176268366">8 017 626-83-66 приемная</a>
+                    <a className={s.infoDescription} href="tel:+80173060068">8 017 306-00-68 приемная</a>
                     <a className={s.infoDescription} href="mailto:oblstroy@uksmoik.by">oblstroy@uksmoik.by</a>
                 </div>
             </div>

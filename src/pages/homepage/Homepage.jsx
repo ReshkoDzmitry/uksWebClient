@@ -18,20 +18,20 @@ const Homepage = () => {
         <>
             <div className={s.containerFirstScreen}>
                 <div className={s.wrapperTitleFirstScreen}>
-                    <h2 className={s.titleFirstScreen}>УКС МИНОБЛИСПОЛКОМА</h2>
+                    <h2 className={s.titleFirstScreen}>УПРАВЛЕНИЕ КАПИТАЛЬНОГО СТРОИТЕЛЬСТВА МИНОБЛИСПОЛКОМА</h2>
                     <h3 className={s.descriptionFirstScreen}>
                         Полный спектр услуг <br/> по строительству и техническому надзору строительного процесса
                     </h3>
                 </div>
 
                 <div className={s.wrapperContactFirstScreen}>
-                    <a className={s.wrapperContactPhone} href="tel:+80176268366">
+                    <a className={s.wrapperContactPhone} href="tel:+80173060068">
                         <div className={s.wrapperPhoneLogo}>
                             <img className={s.phoneLogo} src={phoneLogo} alt="phoneLogo"/>
                         </div>
                         <div className={s.wrapperPhone}>
                             <p className={s.phoneTitle}>Приемная, секретарь</p>
-                            <p className={s.phoneNumber}>8 017 626-83-66</p>
+                            <p className={s.phoneNumber}>8 017 306-00-68</p>
                         </div>
                     </a>
 
@@ -54,22 +54,22 @@ const Homepage = () => {
                     <div className={s.blockAdvantageTitle}>
                         <img className={s.okeyLogo} src={okeyLogo} alt="logo"/>
                         <h4 className={s.advantageTitle}>
-                            Более 20 лет опыта работы
+                            Более 30 лет опыта работы
                         </h4>
                     </div>
-                    <p className={s.blockAdvantageDescription}>Предприятие успешно работает в сфере строительства и технического надзора уже более 20 лет.</p>
+                    <p className={s.blockAdvantageDescription}>Предприятие успешно работает в сфере строительства и технического надзора уже более 30 лет.</p>
                 </div>
 
-                <div className={s.wrapperBlockAdvantage}>
-                    <div className={s.blockAdvantageTitle}>
-                        <img className={s.okeyLogo} src={okeyLogo} alt="logo"/>
-                        <h4 className={s.advantageTitle}>
-                            Современное оборудование
-                        </h4>
-                    </div>
+                {/*<div className={s.wrapperBlockAdvantage}>*/}
+                {/*    <div className={s.blockAdvantageTitle}>*/}
+                {/*        <img className={s.okeyLogo} src={okeyLogo} alt="logo"/>*/}
+                {/*        <h4 className={s.advantageTitle}>*/}
+                {/*            Современное оборудование*/}
+                {/*        </h4>*/}
+                {/*    </div>*/}
 
-                    <p className={s.blockAdvantageDescription}>Для качественной реализации всех этапов строительных процессов и решения сложных комплексных задач.</p>
-                </div>
+                {/*    <p className={s.blockAdvantageDescription}>Для качественной реализации всех этапов строительных процессов и решения сложных комплексных задач.</p>*/}
+                {/*</div>*/}
 
                 <div className={s.wrapperBlockAdvantage}>
 
